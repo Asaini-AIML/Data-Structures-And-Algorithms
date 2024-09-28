@@ -1,0 +1,26 @@
+{
+    "C++ Solution Template": {
+        "scope": "cpp",
+        "prefix": "cpparray",
+        "body": [
+            "#include <bits/stdc++.h>",
+            "using namespace std;",
+            "",
+            "class Solution {",
+            "public:",
+            "    ${1:int} functionName(${2:vector<int> &arr}) {",
+            "        // Your code here",
+            "        $0",
+            "    }",
+            "};",
+            "",
+            "int main() {",
+            "    Solution sol;",
+            "    ${3:vector<int> arr{}};", // Placeholder for array initialization
+            "    cout << sol.functionName(arr) << endl;", // Call the function
+            "    return 0;",
+            "}"
+        ],
+        "description": "Template for C++ solution with class and main function"
+    }
+}
